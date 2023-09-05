@@ -1,0 +1,30 @@
+
+
+ul {
+ list-style-type: none;
+ display: flex;
+ justify-content: flex-end;
+ padding-inline-start: 0px;
+ margin-right: 10rem;
+ margin-top: 3rem;
+}
+
+li {
+  margin-right: 2rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  background: none;
+  border: none;
+  font-family: cursive;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.15rem solid rgba(255, 255, 255, 0);
+  text-shadow: 0.15rem 0.05rem 0.05rem black;
+}
+
+li:hover {
+  border-bottom: 0.15rem solid white;
+  cursor: pointer;
+}
+
